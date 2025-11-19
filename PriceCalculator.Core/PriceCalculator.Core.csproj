@@ -5,30 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\netstandard2.0\PriceCalculator.Core.AssemblyInfo.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="bin\Debug\netstandard2.0\PriceCalculator.Core.deps.json" />
-    <Content Include="obj\Debug\netstandard2.0\PriceCalculator.Core.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\PriceCalculator.Core.csproj.nuget.dgspec.json" />
-    <Content Include="obj\project.assets.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="bin\Debug\netstandard2.0\PriceCalculator.Core.dll" />
-    <None Include="bin\Debug\netstandard2.0\PriceCalculator.Core.pdb" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.assets.cache" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.dll" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\netstandard2.0\PriceCalculator.Core.pdb" />
-    <None Include="obj\PriceCalculator.Core.csproj.nuget.g.props" />
-    <None Include="obj\PriceCalculator.Core.csproj.nuget.g.targets" />
-    <None Include="obj\project.nuget.cache" />
+    <Compile Remove="bin\**" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="bin\**" />
+    <None Remove="obj\**" />
   </ItemGroup>
 
 </Project>
